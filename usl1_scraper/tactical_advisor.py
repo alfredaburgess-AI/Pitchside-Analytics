@@ -30,7 +30,7 @@ MODEL = "claude-sonnet-4-20250514"
 MAX_TOKENS = 300
 
 # ── Prompt Template ──
-PROMPT_TEMPLATE = """Player: {out_name}. 2025 Stats: {out_goals} Goals{top_scorer}, {out_minutes}+ mins. Current Match State: {minute}th minute, {stamina}% Stamina, Away at {elevation_ft}ft. Provide a tactical justification for keeping him on or subbing him."""
+PROMPT_TEMPLATE = """Player: {out_name}. 2025 Stats: {stats_text}. Current Match State: {minute}th minute, {stamina}% Stamina, Away at {elevation_ft}ft. Provide a tactical justification for keeping him on or subbing him."""
 
 
 def _build_prompt(minute, elevation_ft, stamina_multiplier, player_out, player_in):
@@ -47,12 +47,17 @@ def _build_prompt(minute, elevation_ft, stamina_multiplier, player_out, player_i
     threat_score = player_out.get("threat_score", player_out.get("threat_score_0_100", 0))
     stamina = player_out.get("stamina", 68)
     
+    is_gk = player_out.get("position") in ["Goalkeeper", "GK"]
+    if is_gk:
+        stats_text = f"{player_out.get('saves', 0)} Saves, {player_out.get('goals_blocked', 0)} Goals Blocked"
+    else:
+        stats_text = f"{player_out.get('goals', 0)} Goals | Threat Score: {threat_score}"
+
     return PROMPT_TEMPLATE.format(
         minute=minute,
         elevation_ft=elevation_ft,
         out_name=f"{player_out['name']}{starter_text}{threat_text}",
-        out_goals=player_out.get("goals", 0),
-        top_scorer=f" | Threat Score: {threat_score}",
+        stats_text=stats_text,
         out_minutes=player_out.get("minutes", 0),
         stamina=stamina
     )
@@ -67,6 +72,10 @@ def _mock_response(minute, elevation_ft, stamina_multiplier, player_out, player_
     
     threat_score = player_out.get("threat_score", player_out.get("threat_score_0_100", 72.5))
     minutes_2025 = player_out.get("minutes", 1200)
+
+    is_gk = player_out.get("position") in ["Goalkeeper", "GK"]
+    if is_gk:
+        return f"🧤 GOALKEEPER ANALYSIS: {player_out['name']} is at {stamina}% stamina. For this position, we prioritize 'Goals Blocked' and 'Saves' over scoring metrics. Tactical stability remains the priority at {elevation_ft}ft."
 
     if is_primary and is_red_line:
         return f"🚨 CRITICAL SITUATION: Your Primary Offensive Threat (2025: 9 Goals, {threat_score} Threat) is at {stamina}% stamina in the {minute}' min. At {elevation_ft}ft, maintaining this high-minutes profile ({minutes_2025} mins) risks output drop-off. Recommend subbing in a fresh 'High-Threat' profile to capitalize on late-game opportunities."

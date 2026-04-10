@@ -86,29 +86,42 @@ a {
 }
 
 .dashboardGrid {
-  display: grid;
-  grid-template-columns: 280px 1fr 280px;
-  gap: 16px;
-  padding: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 24px;
   flex: 1;
-  max-width: 1440px;
+  max-width: 1600px;
   margin: 0 auto;
   width: 100%;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+  box-sizing: border-box;
 }
 
-.column,
-.columnLeft,
-.columnCenter,
-.columnRight {
+.columnLeft {
+  flex: 0 0 280px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 280px;
+}
+
+.columnCenter {
+  flex: 1 1 500px;
   display: flex;
   flex-direction: column;
   gap: 16px;
   min-width: 0;
-}
-
-.columnCenter {
   align-items: center;
   justify-content: flex-start;
+}
+
+.columnRight {
+  flex: 0 0 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 300px; /* Ensure Bench has a min-width as requested */
 }
 
 .columnTitle {
@@ -123,22 +136,35 @@ a {
   border-bottom: 2px solid var(--accent-forest);
 }
 
-/* Responsive */
-@media (max-width: 1100px) {
+/* Responsive Logic - Implementing the requested lg:flex-row flex-col pattern via CSS */
+@media (max-width: 1280px) {
   .dashboardGrid {
-    grid-template-columns: 240px 1fr 240px;
-    gap: 12px;
-    padding: 12px;
+    padding: 16px;
+    gap: 16px;
   }
 }
 
-@media (max-width: 900px) {
-  .dashboardGrid {
-    grid-template-columns: 1fr;
-    gap: 16px;
+@media (max-width: 1024px) {
+  .columnRight {
+    flex: 1 1 100%; /* Allow bench to drop below pitch */
+    order: 3;
   }
+}
+
+@media (max-width: 768px) {
+  .dashboardGrid {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .columnLeft, .columnCenter, .columnRight {
+    flex: 1 1 auto;
+    width: 100%;
+    min-width: 0;
+  }
+
   .columnCenter {
-    order: -1;
+    order: -1; /* Keep pitch at top on mobile */
   }
 }
 

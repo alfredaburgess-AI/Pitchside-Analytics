@@ -1,0 +1,794 @@
+[
+    {
+        "player_name": "Player 1 (AV Alta FC)",
+        "team_2026": "AV Alta FC",
+        "logistics_2026": {
+            "jersey_number": 1,
+            "position": "Goalkeeper",
+            "home_stadium_coords": {
+                "lat": 34.69811,
+                "lon": -118.13662
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL Championship"
+        },
+        "stats_2025": {
+            "games_played": 28,
+            "minutes": 2380,
+            "goals": 0,
+            "assists": 4,
+            "yellow_cards": 3,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 2 (AV Alta FC)",
+        "team_2026": "AV Alta FC",
+        "logistics_2026": {
+            "jersey_number": 9,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 34.69811,
+                "lon": -118.13662
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL League One"
+        },
+        "stats_2025": {
+            "games_played": 22,
+            "minutes": 1430,
+            "goals": 0,
+            "assists": 4,
+            "yellow_cards": 4,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Zion Scarlett",
+        "team_2026": "Athletic Club Boise",
+        "logistics_2026": {
+            "jersey_number": 7,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 43.62211,
+                "lon": -116.23818
+            }
+        },
+        "history_2025": {
+            "club": "Columbus Crew 2",
+            "transfer_source_league": "MLS Next Pro"
+        },
+        "stats_2025": {
+            "games_played": 24,
+            "minutes": 1584,
+            "goals": 1,
+            "assists": 0,
+            "yellow_cards": 5,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Local Talent A",
+        "team_2026": "Athletic Club Boise",
+        "logistics_2026": {
+            "jersey_number": 10,
+            "position": "Midfielder",
+            "home_stadium_coords": {
+                "lat": 43.62211,
+                "lon": -116.23818
+            }
+        },
+        "history_2025": {
+            "club": "Boise State",
+            "transfer_source_league": "NCAA"
+        },
+        "stats_2025": {
+            "games_played": 26,
+            "minutes": 1066,
+            "goals": 4,
+            "assists": 2,
+            "yellow_cards": 2,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 1 (Charlotte Independence)",
+        "team_2026": "Charlotte Independence",
+        "logistics_2026": {
+            "jersey_number": 1,
+            "position": "Goalkeeper",
+            "home_stadium_coords": {
+                "lat": 35.21816,
+                "lon": -80.82893
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL Championship"
+        },
+        "stats_2025": {
+            "games_played": 15,
+            "minutes": 1320,
+            "goals": 2,
+            "assists": 2,
+            "yellow_cards": 2,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 2 (Charlotte Independence)",
+        "team_2026": "Charlotte Independence",
+        "logistics_2026": {
+            "jersey_number": 9,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 35.21816,
+                "lon": -80.82893
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL League One"
+        },
+        "stats_2025": {
+            "games_played": 19,
+            "minutes": 1501,
+            "goals": 3,
+            "assists": 5,
+            "yellow_cards": 0,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 1 (Chattanooga Red Wolves SC)",
+        "team_2026": "Chattanooga Red Wolves SC",
+        "logistics_2026": {
+            "jersey_number": 1,
+            "position": "Goalkeeper",
+            "home_stadium_coords": {
+                "lat": 35.00273,
+                "lon": -85.24599
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL Championship"
+        },
+        "stats_2025": {
+            "games_played": 19,
+            "minutes": 1311,
+            "goals": 2,
+            "assists": 1,
+            "yellow_cards": 4,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 2 (Chattanooga Red Wolves SC)",
+        "team_2026": "Chattanooga Red Wolves SC",
+        "logistics_2026": {
+            "jersey_number": 9,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 35.00273,
+                "lon": -85.24599
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL League One"
+        },
+        "stats_2025": {
+            "games_played": 26,
+            "minutes": 1560,
+            "goals": 0,
+            "assists": 1,
+            "yellow_cards": 4,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Matteo Kidd",
+        "team_2026": "Corpus Christi FC",
+        "logistics_2026": {
+            "jersey_number": 8,
+            "position": "Midfielder",
+            "home_stadium_coords": {
+                "lat": 27.76353,
+                "lon": -97.40332
+            }
+        },
+        "history_2025": {
+            "club": "St. Louis City 2",
+            "transfer_source_league": "MLS Next Pro"
+        },
+        "stats_2025": {
+            "games_played": 21,
+            "minutes": 1092,
+            "goals": 10,
+            "assists": 3,
+            "yellow_cards": 4,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 1 (FC Naples)",
+        "team_2026": "FC Naples",
+        "logistics_2026": {
+            "jersey_number": 1,
+            "position": "Goalkeeper",
+            "home_stadium_coords": {
+                "lat": 26.1422,
+                "lon": -81.79429
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL Championship"
+        },
+        "stats_2025": {
+            "games_played": 21,
+            "minutes": 819,
+            "goals": 0,
+            "assists": 3,
+            "yellow_cards": 4,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 2 (FC Naples)",
+        "team_2026": "FC Naples",
+        "logistics_2026": {
+            "jersey_number": 9,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 26.1422,
+                "lon": -81.79429
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL League One"
+        },
+        "stats_2025": {
+            "games_played": 10,
+            "minutes": 750,
+            "goals": 1,
+            "assists": 3,
+            "yellow_cards": 1,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 1 (Fort Wayne FC)",
+        "team_2026": "Fort Wayne FC",
+        "logistics_2026": {
+            "jersey_number": 1,
+            "position": "Goalkeeper",
+            "home_stadium_coords": {
+                "lat": 41.07999,
+                "lon": -85.1386
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL Championship"
+        },
+        "stats_2025": {
+            "games_played": 19,
+            "minutes": 1159,
+            "goals": 1,
+            "assists": 0,
+            "yellow_cards": 3,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 2 (Fort Wayne FC)",
+        "team_2026": "Fort Wayne FC",
+        "logistics_2026": {
+            "jersey_number": 9,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 41.07999,
+                "lon": -85.1386
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL League One"
+        },
+        "stats_2025": {
+            "games_played": 10,
+            "minutes": 580,
+            "goals": 1,
+            "assists": 3,
+            "yellow_cards": 0,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 1 (Forward Madison FC)",
+        "team_2026": "Forward Madison FC",
+        "logistics_2026": {
+            "jersey_number": 1,
+            "position": "Goalkeeper",
+            "home_stadium_coords": {
+                "lat": 43.08329,
+                "lon": -89.37321
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL Championship"
+        },
+        "stats_2025": {
+            "games_played": 22,
+            "minutes": 1892,
+            "goals": 4,
+            "assists": 3,
+            "yellow_cards": 1,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 2 (Forward Madison FC)",
+        "team_2026": "Forward Madison FC",
+        "logistics_2026": {
+            "jersey_number": 9,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 43.08329,
+                "lon": -89.37321
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL League One"
+        },
+        "stats_2025": {
+            "games_played": 13,
+            "minutes": 806,
+            "goals": 0,
+            "assists": 4,
+            "yellow_cards": 1,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 1 (Greenville Triumph SC)",
+        "team_2026": "Greenville Triumph SC",
+        "logistics_2026": {
+            "jersey_number": 1,
+            "position": "Goalkeeper",
+            "home_stadium_coords": {
+                "lat": 34.9201,
+                "lon": -82.43723
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL Championship"
+        },
+        "stats_2025": {
+            "games_played": 12,
+            "minutes": 756,
+            "goals": 4,
+            "assists": 0,
+            "yellow_cards": 2,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 2 (Greenville Triumph SC)",
+        "team_2026": "Greenville Triumph SC",
+        "logistics_2026": {
+            "jersey_number": 9,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 34.9201,
+                "lon": -82.43723
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL League One"
+        },
+        "stats_2025": {
+            "games_played": 12,
+            "minutes": 720,
+            "goals": 0,
+            "assists": 5,
+            "yellow_cards": 0,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 1 (New York Cosmos)",
+        "team_2026": "New York Cosmos",
+        "logistics_2026": {
+            "jersey_number": 1,
+            "position": "Goalkeeper",
+            "home_stadium_coords": {
+                "lat": 40.72454,
+                "lon": -73.59791
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL Championship"
+        },
+        "stats_2025": {
+            "games_played": 14,
+            "minutes": 658,
+            "goals": 2,
+            "assists": 2,
+            "yellow_cards": 0,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 2 (New York Cosmos)",
+        "team_2026": "New York Cosmos",
+        "logistics_2026": {
+            "jersey_number": 9,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 40.72454,
+                "lon": -73.59791
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL League One"
+        },
+        "stats_2025": {
+            "games_played": 25,
+            "minutes": 800,
+            "goals": 5,
+            "assists": 2,
+            "yellow_cards": 3,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 1 (One Knoxville SC)",
+        "team_2026": "One Knoxville SC",
+        "logistics_2026": {
+            "jersey_number": 1,
+            "position": "Goalkeeper",
+            "home_stadium_coords": {
+                "lat": 35.94581,
+                "lon": -83.9331
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL Championship"
+        },
+        "stats_2025": {
+            "games_played": 13,
+            "minutes": 858,
+            "goals": 0,
+            "assists": 3,
+            "yellow_cards": 3,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 2 (One Knoxville SC)",
+        "team_2026": "One Knoxville SC",
+        "logistics_2026": {
+            "jersey_number": 9,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 35.94581,
+                "lon": -83.9331
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL League One"
+        },
+        "stats_2025": {
+            "games_played": 20,
+            "minutes": 1560,
+            "goals": 5,
+            "assists": 5,
+            "yellow_cards": 0,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 1 (Portland Hearts of Pine)",
+        "team_2026": "Portland Hearts of Pine",
+        "logistics_2026": {
+            "jersey_number": 1,
+            "position": "Goalkeeper",
+            "home_stadium_coords": {
+                "lat": 43.65791,
+                "lon": -70.27656
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL Championship"
+        },
+        "stats_2025": {
+            "games_played": 15,
+            "minutes": 870,
+            "goals": 0,
+            "assists": 2,
+            "yellow_cards": 0,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 2 (Portland Hearts of Pine)",
+        "team_2026": "Portland Hearts of Pine",
+        "logistics_2026": {
+            "jersey_number": 9,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 43.65791,
+                "lon": -70.27656
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL League One"
+        },
+        "stats_2025": {
+            "games_played": 17,
+            "minutes": 731,
+            "goals": 1,
+            "assists": 1,
+            "yellow_cards": 3,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 1 (Richmond Kickers)",
+        "team_2026": "Richmond Kickers",
+        "logistics_2026": {
+            "jersey_number": 1,
+            "position": "Goalkeeper",
+            "home_stadium_coords": {
+                "lat": 37.54979,
+                "lon": -77.4865
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL Championship"
+        },
+        "stats_2025": {
+            "games_played": 18,
+            "minutes": 1332,
+            "goals": 5,
+            "assists": 1,
+            "yellow_cards": 4,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 2 (Richmond Kickers)",
+        "team_2026": "Richmond Kickers",
+        "logistics_2026": {
+            "jersey_number": 9,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 37.54979,
+                "lon": -77.4865
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL League One"
+        },
+        "stats_2025": {
+            "games_played": 22,
+            "minutes": 1408,
+            "goals": 0,
+            "assists": 4,
+            "yellow_cards": 1,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 1 (Sarasota Paradise)",
+        "team_2026": "Sarasota Paradise",
+        "logistics_2026": {
+            "jersey_number": 1,
+            "position": "Goalkeeper",
+            "home_stadium_coords": {
+                "lat": 27.33658,
+                "lon": -82.53085
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL Championship"
+        },
+        "stats_2025": {
+            "games_played": 22,
+            "minutes": 1562,
+            "goals": 0,
+            "assists": 3,
+            "yellow_cards": 0,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 2 (Sarasota Paradise)",
+        "team_2026": "Sarasota Paradise",
+        "logistics_2026": {
+            "jersey_number": 9,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 27.33658,
+                "lon": -82.53085
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL League One"
+        },
+        "stats_2025": {
+            "games_played": 29,
+            "minutes": 1624,
+            "goals": 3,
+            "assists": 4,
+            "yellow_cards": 2,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 1 (Spokane Velocity FC)",
+        "team_2026": "Spokane Velocity FC",
+        "logistics_2026": {
+            "jersey_number": 1,
+            "position": "Goalkeeper",
+            "home_stadium_coords": {
+                "lat": 47.66742,
+                "lon": -117.41917
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL Championship"
+        },
+        "stats_2025": {
+            "games_played": 15,
+            "minutes": 1335,
+            "goals": 3,
+            "assists": 3,
+            "yellow_cards": 2,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 2 (Spokane Velocity FC)",
+        "team_2026": "Spokane Velocity FC",
+        "logistics_2026": {
+            "jersey_number": 9,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 47.66742,
+                "lon": -117.41917
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL League One"
+        },
+        "stats_2025": {
+            "games_played": 26,
+            "minutes": 1638,
+            "goals": 1,
+            "assists": 2,
+            "yellow_cards": 1,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 1 (Union Omaha)",
+        "team_2026": "Union Omaha",
+        "logistics_2026": {
+            "jersey_number": 1,
+            "position": "Goalkeeper",
+            "home_stadium_coords": {
+                "lat": 41.14993,
+                "lon": -96.09907
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL Championship"
+        },
+        "stats_2025": {
+            "games_played": 19,
+            "minutes": 1026,
+            "goals": 4,
+            "assists": 1,
+            "yellow_cards": 0,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 2 (Union Omaha)",
+        "team_2026": "Union Omaha",
+        "logistics_2026": {
+            "jersey_number": 9,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 41.14993,
+                "lon": -96.09907
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL League One"
+        },
+        "stats_2025": {
+            "games_played": 29,
+            "minutes": 1595,
+            "goals": 4,
+            "assists": 5,
+            "yellow_cards": 1,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 1 (Westchester SC)",
+        "team_2026": "Westchester SC",
+        "logistics_2026": {
+            "jersey_number": 1,
+            "position": "Goalkeeper",
+            "home_stadium_coords": {
+                "lat": 40.91251,
+                "lon": -73.83865
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL Championship"
+        },
+        "stats_2025": {
+            "games_played": 19,
+            "minutes": 969,
+            "goals": 4,
+            "assists": 5,
+            "yellow_cards": 4,
+            "red_cards": 0
+        }
+    },
+    {
+        "player_name": "Player 2 (Westchester SC)",
+        "team_2026": "Westchester SC",
+        "logistics_2026": {
+            "jersey_number": 9,
+            "position": "Forward",
+            "home_stadium_coords": {
+                "lat": 40.91251,
+                "lon": -73.83865
+            }
+        },
+        "history_2025": {
+            "club": "Unknown",
+            "transfer_source_league": "USL League One"
+        },
+        "stats_2025": {
+            "games_played": 25,
+            "minutes": 1575,
+            "goals": 1,
+            "assists": 5,
+            "yellow_cards": 3,
+            "red_cards": 0
+        }
+    }
+]

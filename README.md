@@ -22,6 +22,9 @@ A bespoke AI engine that acknowledges the historical context of every player.
 * **Visual Priority:** Uses a high-contrast **Portland Navy, Crimson, and Forest Green** UI designed for AAA accessibility standards.
 
 ---
+### 🕒 Dashboard Visual
+![Screenshot](Screenshot_main.png)
+---
 
 ## 🛠️ Technical Stack
 * **Frontend:** Next.js, React, Framer Motion

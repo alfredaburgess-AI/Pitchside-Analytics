@@ -140,33 +140,29 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
-.insightBtn {
+.hoverOverlay {
   position: absolute;
-  bottom: -2px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: rgba(215, 25, 33, 0.2);
-  border: 1px solid rgba(215, 25, 33, 0.3);
-  color: #D71921;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(215, 25, 33, 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   opacity: 0;
-  transition: opacity 0.2s ease, background 0.2s ease;
-  z-index: 30;
+  transition: all 0.2s ease;
+  pointer-events: none;
+  z-index: 5;
 }
 
-.playerNode:hover .insightBtn,
-.insightBtn:focus-visible {
+.playerNode:hover .hoverOverlay {
   opacity: 1;
 }
 
-.insightBtn:hover {
-  background: rgba(215, 25, 33, 0.4);
+.insightIcon {
+  color: #fff;
+  filter: drop-shadow(0 0 4px rgba(0,0,0,0.5));
 }
 
 /* Opponent Nodes */

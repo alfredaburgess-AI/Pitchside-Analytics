@@ -104,7 +104,14 @@ export default function PlayerNode({ player, x, y }: PlayerNodeProps) {
       onDragOver={handleDragOver}
       onDrop={handleDrop}
     >
-      <div className={styles.nodeCircle} style={{ width: nodeSize, height: nodeSize }}>
+      <div 
+        className={styles.nodeCircle} 
+        style={{ width: nodeSize, height: nodeSize }}
+        onClick={handleInsightClick}
+        role="button"
+        tabIndex={0}
+        aria-label={`Get AI Insight for ${player.player_name}`}
+      >
         <StaminaRing stamina={fatigue.current_stamina} size={nodeSize} />
 
         <div className={styles.nodeInner}>
@@ -123,6 +130,10 @@ export default function PlayerNode({ player, x, y }: PlayerNodeProps) {
               {initials}
             </div>
           )}
+          {/* Hover Overlay Trigger */}
+          <div className={styles.hoverOverlay}>
+            <Sparkles size={16} className={styles.insightIcon} />
+          </div>
         </div>
 
         {player.logistics_2026.jersey_number && (
@@ -148,14 +159,7 @@ export default function PlayerNode({ player, x, y }: PlayerNodeProps) {
         {Math.round(fatigue.current_stamina)}%
       </span>
 
-      <button
-        className={styles.insightBtn}
-        onClick={handleInsightClick}
-        title="Get AI Insight"
-        id={`insight-${player.player_id}`}
-      >
-        <Sparkles size={10} />
-      </button>
+
     </motion.div>
   );
 }

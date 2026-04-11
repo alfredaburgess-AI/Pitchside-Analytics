@@ -7,6 +7,21 @@
   align-items: flex-start;
 }
 
+@media (max-width: 768px) {
+  .pitchContainer {
+    transform: scale(0.9);
+    transform-origin: top center;
+    margin-bottom: -110px; /* Reduce empty space from scaling */
+  }
+}
+
+@media (max-width: 480px) {
+  .pitchContainer {
+    transform: scale(0.75);
+    margin-bottom: -220px;
+  }
+}
+
 .pitch {
   position: relative;
   width: 100%;

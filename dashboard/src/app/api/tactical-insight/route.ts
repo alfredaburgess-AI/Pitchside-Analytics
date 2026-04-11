@@ -39,8 +39,13 @@ function generateMockInsight(data: InsightRequest): string {
   const threatScore = player_out.threat_score || 0;
   const staminaValue = player_out.stamina ? Math.round(player_out.stamina) : 68;
   const isRedLine = staminaValue <= 70;
+  const isGK = player_out.position === 'Goalkeeper' || player_out.position === 'GK';
 
   // Profile-based suggestions citing specific 2025 stats
+  if (isGK) {
+    return `🧤 GOALKEEPER ANALYSIS: ${player_out.name}${starterText} is at ${staminaValue}% stamina. For this position, we are monitoring 'Goals Blocked' and 'Saves' rather than offensive output. At ${elevation_ft}ft, reflexive speed remains stable, but a fresh keeper may offer better distribution in the final 15 minutes.`;
+  }
+
   if (isPrimary && isRedLine) {
     return `🚨 CRITICAL SITUATION: Your Primary Offensive Threat (${player_out.name}${starterText}) has hit the Red Line (${staminaValue}%). With a 2025 record of 9 Goals and ${threatScore} Threat Score over ${player_out.minutes} mins, his late-game output is vital. At ${elevation_ft}ft, we recommend a 'High-Threat Finisher' profile to maintain this scoring probability.`;
   }

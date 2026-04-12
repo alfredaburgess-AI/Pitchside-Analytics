@@ -3,7 +3,17 @@
  */
 
 import { TeamMeta, Player } from './types';
-import tacticalData from '@/data/final_tactical_data.json';
+import tacticalDataRaw from '@/data/final_tactical_data.json';
+
+// Global cleanup: Strip trailing '0' from player names if present (e.g., Morse0 -> Morse)
+const tacticalData = {
+  ...tacticalDataRaw,
+  players: (tacticalDataRaw.players as any[]).map(p => ({
+    ...p,
+    player_name: p.player_name.replace(/0$/, '')
+  }))
+};
+
 
 // JSON team_2026 short names → _meta.teams full names
 export const TEAM_NAME_MAP: Record<string, string> = {

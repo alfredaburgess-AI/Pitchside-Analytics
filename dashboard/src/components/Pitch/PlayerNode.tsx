@@ -145,7 +145,7 @@ export default function PlayerNode({ player, x, y }: PlayerNodeProps) {
 
       <span className={styles.playerLabel}>
         {player.player_name.split(' ').pop()}
-        {player.stats_2025.threat_score && player.stats_2025.threat_score > 85 && (
+        {player.stats_2025.threat_score !== undefined && player.stats_2025.threat_score > 85 && (
           <Star 
             size={12} 
             fill="#D4AF37" 

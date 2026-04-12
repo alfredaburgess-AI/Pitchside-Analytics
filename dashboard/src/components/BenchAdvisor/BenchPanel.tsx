@@ -63,7 +63,7 @@ function BenchPlayerCard({ player }: BenchPlayerCardProps) {
       <div className={styles.benchInfo}>
         <span className={styles.benchName}>
           {displayName}
-          {player.stats_2025.threat_score && player.stats_2025.threat_score > 85 && (
+          {player.stats_2025.threat_score !== undefined && player.stats_2025.threat_score > 85 && (
             <Star 
               size={8} 
               fill="#D4AF37" 

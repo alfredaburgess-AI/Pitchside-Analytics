@@ -23,7 +23,7 @@ A bespoke AI engine that acknowledges the historical context of every player.
 
 ---
 ### 🕒 Dashboard Visual
-![Screenshot](Screenshot_main.png)
+![Screenshot](Screenshot_main1.png)
 ---
 
 ## 🛠️ Technical Stack
